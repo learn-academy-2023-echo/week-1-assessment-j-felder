@@ -38,6 +38,9 @@ const greeting = "Hello World!"
 
 // b) Verify and explain:
 //o, strings are zero indexed, as arrays are. therefore the selected index [4] of the string is the 5th caracter; the letter 'o'
+
+
+
 // --------------------3) What will this log?
 
 const languages = ["JavaScript", "Ruby", "Python", "C++"]
@@ -49,11 +52,15 @@ const index = 1
 // b) Verify and explain:
 // Ruby
 //index is equal to the number 1, so because "index" is in square brackets the second index of array languages is selected and logged on the console.
+
+
+
 // --------------------4) What will this log? console.log(weekendDays[0].toUpperCase, weekendDays[1].toUpperCase)
 
 const weekendDays = ["saturday", "sunday"]
-
-// console.log(weekendDays.toUpperCase())
+// console.log(weekendDays[0].toUpperCase())
+// console.log(weekendDays[1].toUpperCase())
+// console.log(weekendDays[0].toUpperCase(), weekendDays[1].toUpperCase())
 
 // a) Your answer: ["SATURDAY", "SUNDAY"]
 // b) Verify and explain:
@@ -63,10 +70,16 @@ const weekendDays = ["saturday", "sunday"]
 //i think .toUpperCase is used wrong. might be only for string
 //buy removing .toUperCase output is ['satuday, 'sunday']
 
+
+
+// console.log(weekendDays[0].toUpperCase(), weekendDays[1].toUpperCase()) get the desired output.
+
+
+
 // --------------------5) What will this log?
 
 const dataTypes = ["number", "string", "Boolean", "undefined"]
-console.log(typeof dataTypes.length)
+// console.log(typeof dataTypes.length)
 
 // a) Your answer: undefined, i think there should be a set of parenthesis after 'typeOf' instead of "typeof"
 // b) Verify and explain:
