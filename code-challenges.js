@@ -23,8 +23,13 @@ const fruit4 = "kiwi"
 // Pseudo code:
 // fucntion
     // input: number
+    //output: string 
     // below, at, or above boiling point
-// conditional statement
+// if statement comparing the given number to 212
+// number > 212 - "above boiling point"
+// number < 212 - "below boiling point"
+// number === 212 - "at boiling point"
+// string interpolation because thats the 
 
 
 const temperature1 = 42
@@ -63,7 +68,7 @@ const temperature3 = 212
 
 // Pseudo code:
 //function
-// concat two arrays
+// concat two arrays firstArray.comcat(secondArray) combines both arrays returning one array with all of the values from both arrays.
     //input: two arrays
     //output/return: concatenatedArray.length   
 // 
@@ -120,7 +125,8 @@ const givenValue2 = 10
 // --------------------5) Create the code that will sort all the numbers in an array from largest to smallest. Use the test variables provided below.
 
 // Pseudo code:
-//
+// well i didnt really know what method that could reorganize the values in a array; i looked up some option, found .sort()
+//then reading what sort did for me i knew that id need to reverse the order after that to achieve prompt goals.
 
 
 const sanDiegoSummerTemperatures = [79, 80, 72, 73, 82, 77, 76]
