@@ -78,11 +78,11 @@ const padres1998WorldSeriesRuns = [6, 3, 5, 3]
 // Expected output: 9
 
 
-const twoBaseballArrays = () => {
-    return padres1984WorldSeriesRuns.concat(padres1998WorldSeriesRuns).length
+const twoBaseballArrays = (array, array2) => {
+    return array.concat(array2).length
 }
 
-// console.log(twoBaseballArrays(padres1984WorldSeriesRuns, padres1998WorldSeriesRuns))
+console.log(twoBaseballArrays(padres1984WorldSeriesRuns, padres1998WorldSeriesRuns))
 
 //output: 9
 
